@@ -1,0 +1,14 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system deps (kadang psycopg2 butuh libpq, tapi binary biasanya cukup)
+RUN pip install --no-cache-dir --upgrade pip
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY load_ecommerce.py .
+
+# default command bisa kita isi misalnya:
+CMD ["python", "load_ecommerce.py"]

@@ -72,14 +72,15 @@ graph TB
     SCRIPT -.->|"Orchestrate"| EXTRACT
     SCRIPT -.->|"Execute"| QUERIES
     
-    style DATA fill:#e1f5ff,stroke:#0288d1
-    style EXTRACT fill:#fff4e1,stroke:#f57c00
-    style TRANSFORM fill:#ffe1f5,stroke:#e91e63
-    style LOAD fill:#e1ffe1,stroke:#43a047
-    style DB fill:#f5e1ff,stroke:#7b1fa2
-    style TABLES fill:#ffe1e1,stroke:#e53935
-    style ANALYTICS fill:#c8e6c9,stroke:#2e7d32
-    style SCRIPT fill:#fff9c4,stroke:#f9a825
+    style DATA fill:#0d47a1,stroke:#90caf9,color:#e3f2fd
+    style EXTRACT fill:#e65100,stroke:#ffcc80,color:#fff3e0
+    style TRANSFORM fill:#880e4f,stroke:#f48fb1,color:#fce4ec
+    style LOAD fill:#1b5e20,stroke:#a5d6a7,color:#e8f5e9
+    style DB fill:#4a148c,stroke:#ce93d8,color:#f3e5f5
+    style TABLES fill:#b71c1c,stroke:#ef9a9a,color:#ffebee
+    style ANALYTICS fill:#1b5e20,stroke:#81c784,color:#e8f5e9
+    style SCRIPT fill:#f57f17,stroke:#fff59d,color:#fffde7
+
 ```
 
 ### ETL Data Flow

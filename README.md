@@ -24,12 +24,13 @@ graph LR
     D --> E[Docker Container]
     E --> F[Analytics Ready]
     
-    style A fill:#e1f5ff
-    style B fill:#fff4e1
-    style C fill:#ffe1f5
-    style D fill:#e1ffe1
-    style E fill:#f5e1ff
-    style F fill:#ffe1e1
+    style A fill:#0d47a1
+    style B fill:#e65100
+    style C fill:#880e4f
+    style D fill:#1b5e20
+    style E fill:#4a148c
+    style F fill:#b71c1c
+
 ```
 
 
@@ -124,11 +125,12 @@ flowchart LR
     CREATE --> INSERT
     INSERT --> T1 & T2 & T3 & T4 & T5
     
-    style INPUT fill:#e3f2fd
-    style EXTRACT fill:#fff3e0
-    style TRANSFORM fill:#fce4ec
-    style LOAD fill:#e8f5e9
-    style OUTPUT fill:#f3e5f5
+    style INPUT fill:#0d47a1,color:#e3f2fd
+    style EXTRACT fill:#e65100,color:#fff3e0
+    style TRANSFORM fill:#880e4f,color:#fce4ec
+    style LOAD fill:#1b5e20,color:#e8f5e9
+    style OUTPUT fill:#4a148c,color:#f3e5f5
+
 ```
 
 ### Docker Container Communication
@@ -162,11 +164,12 @@ graph LR
     PG -->|"Persist"| VOL2
     PG -->|"Expose"| PORT
     
-    style ETL_C fill:#e1f5ff,stroke:#01579b
-    style DB_C fill:#f3e5f5,stroke:#4a148c
-    style HOST fill:#fff9c4,stroke:#f57f17
-    style PY fill:#bbdefb
-    style PG fill:#e1bee7
+    style ETL_C fill:#0d47a1,stroke:#90caf9
+    style DB_C fill:#4a148c,stroke:#ce93d8
+    style HOST fill:#f57f17,stroke:#fff59d
+    style PY fill:#1565c0
+    style PG fill:#6a1b9a
+
 ```
 
 ### Database Relationship Schema
